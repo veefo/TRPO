@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using core;
 
-namespace _2lab
+namespace Erofeev
 {
     internal class ErofeevLog : LogAbstract, ILogInterface
     {
@@ -18,7 +18,7 @@ namespace _2lab
 
         public ILogInterface write()
         {
-            Console.WriteLine(logList.ToArray());
+            writeConsole(logList.ToArray());
             return this;
         }
 

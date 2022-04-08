@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EquationInterface.cs" />
+    <Compile Include="ErofeevException.cs" />
     <Compile Include="ErofeevLog.cs" />
     <Compile Include="ILogInterface.cs" />
     <Compile Include="LogAbstract.cs" />

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace core
+namespace Erofeev
 {
-    public interface EquationInterface
+    internal class ErofeevException : Exception
     {
-        List<float> solve(float a, float b, float c);
+        public ErofeevException(string str) : base() { }
     }
 }
