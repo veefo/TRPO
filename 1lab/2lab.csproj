@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EquationInterface.cs" />
+    <Compile Include="ErofeevLog.cs" />
+    <Compile Include="ILogInterface.cs" />
+    <Compile Include="LogAbstract.cs" />
     <Compile Include="Quadratic.cs" />
     <Compile Include="Linear.cs" />
     <Compile Include="Program.cs" />
