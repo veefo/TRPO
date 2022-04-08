@@ -10,10 +10,7 @@ namespace _1lab
     {
         static void Main(string[] args)
         {
-            CClass c = new CClass();
-
-            BClass b = new BClass(new CClass());
-            AClass a = new AClass(new BClass(new CClass()), new CClass(), new CClass());
+            Linear linear = new Linear();
             
         }
     }

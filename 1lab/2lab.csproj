@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8BA4626C-E1BD-4F64-8130-6CDCCCCC19BB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_1lab</RootNamespace>
-    <AssemblyName>1lab</AssemblyName>
+    <RootNamespace>_2lab</RootNamespace>
+    <AssemblyName>2lab</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AClass.cs" />
-    <Compile Include="BClass.cs" />
-    <Compile Include="CClass.cs" />
+    <Compile Include="Quadratic.cs" />
+    <Compile Include="Linear.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
